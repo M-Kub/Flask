@@ -1,5 +1,6 @@
 import mysql.connector
 
+
 class UseDatabase:
 
     def __init__(self, config: dict) ->None:
@@ -13,4 +14,4 @@ class UseDatabase:
     def __exit__(self, exec_type, exec_value, exec_trace)  -> None:
         self.conn.commit()
         self.cursor.close()
-        self.conn.close()        
+        self.conn.close()
