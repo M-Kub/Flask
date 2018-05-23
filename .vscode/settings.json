@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "C:\\Users\\mkube\\envs\\Flask1\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\mkube\\envs\\Flask1\\Scripts\\python.exe",
+    "editor.fontFamily": "Operator Mono",
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    "explorer.decorations.badges": false
 }
